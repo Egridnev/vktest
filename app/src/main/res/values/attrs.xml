@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AnalogClockView">
+        <attr name="clockCircleColor" format="color"/>
+        <attr name="minuteCircleColor" format="color"/>
+        <attr name="hourlyMarksColor" format="color"/>
+        <attr name="minuteMarksColor" format="color"/>
+        <attr name="hourlyHandColor" format="color"/>
+        <attr name="minuteHandColor" format="color"/>
+        <attr name="secondsHandColor" format="color"/>
+        <attr name="centerCircleColor" format="color"/>
+
+        <attr name="centerCircleRadius" format="dimension"/>
+
+        <attr name="showHourlyMarks" format="boolean"/>
+        <attr name="showMinuteMarks" format="boolean"/>
+        <attr name="showSecondsHand" format="boolean"/>
+    </declare-styleable>
+</resources>
